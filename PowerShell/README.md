@@ -31,6 +31,10 @@
   ```
   Install-Module PSReadLine -RequiredVersionVeresion 2.2.5 -Force
   ```
+- Install the latest version of the PowerShell module Terminal-Icons. [BlogPost]: https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons
+  ```
+  Install-Module -Name Terminal-Icons -Repository PSGallery
+  ```
 - Install the latest version of the PowerShell module z (Optional)
 - Install the latest version of the PowerShell module PSReadLine
   ```
