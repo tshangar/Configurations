@@ -8,7 +8,7 @@
   ```
 - Install Linux from Microsoft Store
 - Download and Install [Nerd Fonts](https://www.nerdfonts.com/) (Caskaydia Cove Nerd Font)
-- Install the shell theme from [Oh My Posh]: https://ohmyposh.dev/
+- Install the shell theme from [Oh My Posh](https://ohmyposh.dev/)
   ```
   winget install JanDeDobbeleer.OhMyPosh -s winget
   ```
@@ -31,7 +31,7 @@
   ```
   Install-Module PSReadLine -RequiredVersionVeresion 2.2.5 -Force
   ```
-- Install the latest version of the PowerShell module **Terminal-Icons**. [Blog Post](https://www.hanselman.com/blog/)take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons
+- Install the latest version of the PowerShell module **Terminal-Icons**. [Blog Post](https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons)
   ```
   Install-Module -Name Terminal-Icons -Repository PSGallery
   ```
