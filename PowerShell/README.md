@@ -2,7 +2,9 @@
 
 ## Steps
 
-- Install WSL
+- Install **PowerShell** using **Microsoft Store**
+
+- Install WSL using **PowerShell** command
 
   ```
   wsl --install
