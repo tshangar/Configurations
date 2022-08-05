@@ -11,13 +11,13 @@
           "powerline_symbol": "\ue0b0",
           "style": "diamond",
           "template": "\ufcbe {{ .UserName }}@{{ .HostName }} ",
-          "trailing_diamond": "\ue0b0",
+          "trailing_diamond": "\ue0b8",
           "type": "session"
         },
         {
           "background": "#01801d",
           "foreground": "#ffffff",
-          "leading_diamond": "\ue0b2",
+          "leading_diamond": "\ue0be",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "style": "full"
@@ -50,17 +50,6 @@
           "type": "git"
         },
         {
-          "background": "#33a3dc",
-          "foreground": "#fffef9",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "always_enabled": true
-          },
-          "style": "powerline",
-          "template": " \uf064  {{ .FormattedMs }} ",
-          "type": "executiontime"
-        },
-        {
           "background": "#6CA35E",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
@@ -78,6 +67,17 @@
           "style": "powerline",
           "template": " \uf0e7 ",
           "type": "root"
+        },
+        {
+          "background": "#0d78ad",
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "powerline",
+          "template": " \uf064  {{ .FormattedMs }} ",
+          "type": "executiontime"
         },
         {
           "background": "#2e9599",
