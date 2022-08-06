@@ -259,7 +259,7 @@
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "\uf054 ",
+          "template": "\uf054",
           "type": "text"
         }
       ],
