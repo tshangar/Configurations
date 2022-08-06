@@ -46,7 +46,14 @@
             "tag_icon": "\uf412 "
           },
           "style": "powerline",
-          "template": " {{ if( .UpstreamIcon ) }}{{ url .UpstreamIcon .UpstreamURL }} {{ end }} {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
+          "templates": [
+            "{{ if( .UpstreamIcon ) }}{{ url .UpstreamIcon .UpstreamURL }} {{ end }} {{ .HEAD }} {{ .BranchStatus }}",
+            "{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}",
+            "{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}",
+            "{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}",
+            "{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}",
+            "{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} "
+          ],
           "type": "git"
         },
         {
