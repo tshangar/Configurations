@@ -37,7 +37,7 @@
 - Update the PowserShell profile by adding the below line
 
   ```
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\jandedobbeleer.omp.json" | Invoke-Expression
   ```
 
 - Update the **VSCode** settings to add the [Nerd Fonts](https://www.nerdfonts.com/) (Caskaydia Cove Nerd Font) to the **Font Family** settings
@@ -62,16 +62,17 @@
 
 - Tryout below [Oh My Posh](https://ohmyposh.dev/) themes
   ```
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\markbull.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\ohmyposh.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\paradox.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\powerlevel10k_classic.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\sonicboom_dark.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\sonicboom_light.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\stelbent-compact.minimal.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\stelbent.minimal.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\takuya.omp.json" | Invoke-Expression
-  oh-my-posh init pwsh --config="C:\Users\<UserName>\AppData\Local\Programs\oh-my-posh\themes\thecyberden.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\markbull.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\ohmyposh.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\paradox.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\powerlevel10k_classic.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\sonicboom_dark.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\sonicboom_light.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\stelbent-compact.minimal.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\stelbent.minimal.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\takuya.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\thecyberden.omp.json" | Invoke-Expression
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\tshangar.omp.json" | Invoke-Expression
   ```
 
 ---
