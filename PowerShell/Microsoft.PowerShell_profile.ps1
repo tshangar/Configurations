@@ -9,7 +9,7 @@ if ($host.Name -eq 'ConsoleHost') {
 #(@(&"C:/Users/Thayaashangar/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe" init pwsh --config="C:\Users\Thayaashangar\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json" --print) -join "`n") | Invoke-Expression
 #oh-my-posh init pwsh --config="C:\Users\Thayaashangar\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json" | Invoke-Expression
 #oh-my-posh init pwsh --config ~/ohmyposh.omp.json | Invoke-Expression
-oh-my-posh init pwsh --config="C:\Users\Thayaashangar\AppData\Local\Programs\oh-my-posh\themes\ohmyposh.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config="C:\Users\Thayaashangar\AppData\Local\Programs\oh-my-posh\themes\tshangar.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 
 
