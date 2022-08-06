@@ -14,8 +14,10 @@
           "type": "session"
         },
         {
-          "background": "#01803d",
-          "foreground": "#ffffff",
+          // "background": "#01803d",
+          // "foreground": "#ffffff",
+          "background": "#FFA500",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_separator_icon": "\u002f",
@@ -27,7 +29,7 @@
           "type": "path"
         },
         {
-          "background": "#00FF00",
+          "background": "#11DD11",
           "background_templates": [
             "{{ if (.Working.Changed) }}#ff4500{{ end }}",
             "{{ if (.Staging.Changed) }}#FF9248{{ end }}",
