@@ -22,7 +22,7 @@
           "properties": {
             "folder_separator_icon": "\u002f",
             "home_icon": "~",
-            "style": "full"
+            "style": "agnoster"
           },
           "style": "powerline",
           "template": " \uf74a {{ .Path }} ",
@@ -58,10 +58,9 @@
           "style": "powerline",
           "templates": [
             " {{ if( .UpstreamIcon ) }}{{ url .UpstreamIcon .UpstreamURL }}{{ end }} {{ .HEAD }} {{ .BranchStatus }}",
-            "{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}",
-            "{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}",
-            "{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}",
             "{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}",
+            "{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}",
+            "{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}",
             "{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}",
             "{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} "
           ],
