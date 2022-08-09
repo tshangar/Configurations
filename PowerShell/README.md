@@ -12,7 +12,7 @@
 
 - Install Linux from Microsoft Store
 
-- Download and Install [Nerd Fonts](https://www.nerdfonts.com/) (Caskaydia Cove Nerd Font)
+- Download and Install [Nerd Fonts](https://www.nerdfonts.com/) (CaskaydiaCove Nerd Font)
 
 - Install the shell theme from [Oh My Posh](https://ohmyposh.dev/)
 
@@ -40,12 +40,12 @@
   oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\jandedobbeleer.omp.json" | Invoke-Expression
   ```
 
-- Update the **VSCode** settings to add the [Nerd Fonts](https://www.nerdfonts.com/) (Caskaydia Cove Nerd Font) to the **Font Family** settings
+- Update the **VSCode** settings to add the [Nerd Fonts](https://www.nerdfonts.com/) (CaskaydiaCove Nerd Font) to the **Font Family** settings
 
 - Install the latest version of the PowerShell module **PSReadLine**
 
   ```
-  Install-Module PSReadLine -RequiredVersionVeresion 2.2.5 -Force
+  Install-Module PSReadLine -RequiredVersion 2.2.5 -Force
   ```
 
 - Install the latest version of the PowerShell module **Terminal-Icons**. [Blog Post](https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons)
@@ -62,6 +62,7 @@
 
 - Tryout below [Oh My Posh](https://ohmyposh.dev/) themes
   ```
+  oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\jandedobbeleer.omp.json" | Invoke-Expression
   oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\markbull.omp.json" | Invoke-Expression
   oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\ohmyposh.omp.json" | Invoke-Expression
   oh-my-posh init pwsh --config="${env:POSH_THEMES_PATH}\paradox.omp.json" | Invoke-Expression
